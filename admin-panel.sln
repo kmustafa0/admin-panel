@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "admin-panel", "admin-panel\admin-panel.csproj", "{D851ADF8-7598-4ACD-A9FD-F89ECBA8BA5F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Üye Kayıt Sistemi", "Üye Kayıt Sistemi\Üye Kayıt Sistemi.vdproj", "{67C982EB-3186-4CE8-894C-48B402E35C28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D851ADF8-7598-4ACD-A9FD-F89ECBA8BA5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D851ADF8-7598-4ACD-A9FD-F89ECBA8BA5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D851ADF8-7598-4ACD-A9FD-F89ECBA8BA5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D851ADF8-7598-4ACD-A9FD-F89ECBA8BA5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67C982EB-3186-4CE8-894C-48B402E35C28}.Debug|Any CPU.ActiveCfg = Debug
+		{67C982EB-3186-4CE8-894C-48B402E35C28}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B42A5235-24A7-4680-85B1-E2DE7BA29877}
+	EndGlobalSection
+EndGlobal

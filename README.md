@@ -1,2 +1,1 @@
-# admin-panel
-akademi fitness için geliştmişmiş olduğum üye kayıt sistemi
+# Ad, soyad, telefon, tckn, bitiş tarihi ekleyerek kullanıcılarınızın kaydını tutabileceğiniz bir admin paneli.

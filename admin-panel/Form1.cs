@@ -17,7 +17,7 @@ namespace admin_panel
         {
             InitializeComponent();
         }
-        SqlConnection conn = new SqlConnection("Data Source=MST\\SQLEXPRESS;Initial Catalog=admin-panel;Integrated Security=True");
+        SqlConnection conn = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=admin-panel;Integrated Security=True");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace admin_panel
         }
         void musteriGetir()
         {
-            conn = new SqlConnection("Data Source=MST\\SQLEXPRESS; Initial Catalog=admin-panel; Integrated Security=true");
+            conn = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=admin-panel; Integrated Security=true");
             conn.Open();
             SqlDataAdapter da = new SqlDataAdapter("SELECT * FROM uyeler", conn);
             DataTable tablo = new DataTable();
